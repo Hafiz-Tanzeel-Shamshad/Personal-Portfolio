@@ -5,7 +5,7 @@ import CounterCard from './CounterCard';
 
 const AboutSection = () => {
   return (
-    <section id="about" className="py-20 bg-[#0f172a] text-white">
+    <section id="about" className="py-10 bg-[#0f172a] text-white">
       <div className="max-w-7xl mx-auto px-6">
         <AnimatedCard delay={200}>
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
@@ -33,7 +33,7 @@ const AboutSection = () => {
               {/* Three Cards */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
                 {/* Education Card */}
-                <div className="glass p-6 rounded-2xl text-center hover:scale-105 transition-all duration-300">
+                {/* <div className="glass p-6 rounded-2xl text-center hover:scale-105 transition-all duration-300">
                   <div className="w-12 h-12 mx-auto mb-4 p-3 rounded-xl bg-gradient-to-r from-blue-500 to-blue-600">
                     <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-white">
                       <path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/>
@@ -41,25 +41,25 @@ const AboutSection = () => {
                   </div>
                   <h3 className="font-bold text-white mb-2">Education</h3>
                   <p className="text-sm text-gray-400">BSCS at Riphah International University</p>
-                </div>
+                </div> */}
 
                 {/* Development Card */}
-                <div className="glass p-6 rounded-2xl text-center hover:scale-105 transition-all duration-300">
+                {/* <div className="glass p-6 rounded-2xl text-center hover:scale-105 transition-all duration-300">
                   <div className="w-12 h-12 mx-auto mb-4 p-3 rounded-xl bg-gradient-to-r from-green-500 to-green-600">
                     <Code className="w-6 h-6 text-white" />
                   </div>
                   <h3 className="font-bold text-white mb-2">Development</h3>
                   <p className="text-sm text-gray-400">MERN Stack & Full-Stack Web Development</p>
-                </div>
+                </div> */}
 
                 {/* AI & ML Card */}
-                <div className="glass p-6 rounded-2xl text-center hover:scale-105 transition-all duration-300">
+                {/* <div className="glass p-6 rounded-2xl text-center hover:scale-105 transition-all duration-300">
                   <div className="w-12 h-12 mx-auto mb-4 p-3 rounded-xl bg-gradient-to-r from-purple-500 to-purple-600">
                     <Brain className="w-6 h-6 text-white" />
                   </div>
                   <h3 className="font-bold text-white mb-2">AI & ML</h3>
                   <p className="text-sm text-gray-400">Machine Learning & Data Science</p>
-                </div>
+                </div> */}
               </div>
             </div>
           </AnimatedCard>

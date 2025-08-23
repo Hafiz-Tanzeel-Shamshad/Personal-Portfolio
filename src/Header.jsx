@@ -13,12 +13,12 @@ const Header = () => {
   }, []);
 
   return (
-    <header
-      className={`bg-[#0f172a] text-white shadow-lg px-6 sticky top-0 z-50 backdrop-blur-md transition-all duration-300 ${
+    <header 
+      className={`bg-[#0f172a]  text-white shadow-lg px-9 sticky top-0 z-50 backdrop-blur-md transition-all duration-300 ${
         shrink ? "py-2" : "py-4"
       }`}
     >
-      <div className="ml-8 max-w-7xl mx-auto flex justify-between items-center">
+      <div  className="ml-8 max-w-7xl mx-auto flex justify-between items-center">
         {/* Left: Logo Only */}
         <div
           className="backdrop-blur-md bg-white/10 border border-white/30 rounded-full flex items-center justify-center w-16 h-16"
@@ -45,18 +45,18 @@ const Header = () => {
           <a href="#projects" className="hover:text-purple-400 transition-colors">
             Projects
           </a>
-          <a href="#blog" className="hover:text-purple-400 transition-colors">
+          {/* <a href="#blog" className="hover:text-purple-400 transition-colors">
             Blog
-          </a>
+          </a> */}
           <a href="#contact" className="hover:text-purple-400 transition-colors">
             Contact
           </a>
 
           {/* Admin Button */}
-          <button className="flex items-center justify-center gap-2 bg-[#111827] px-4 py-2 rounded-lg hover:bg-[#1f2937] transition-colors shadow-md">
+          {/* <button className="flex items-center justify-center gap-2 bg-[#111827] px-4 py-2 rounded-lg hover:bg-[#1f2937] transition-colors shadow-md">
             <FaCog className="text-lg" />
             <span className="font-semibold text-sm">Admin</span>
-          </button>
+          </button> */}
         </nav>
       </div>
     </header>

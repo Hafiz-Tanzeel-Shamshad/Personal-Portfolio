@@ -5,24 +5,30 @@ import {
   FaMapMarkerAlt,
   FaPaperPlane,
   FaDownload,
+  FaPhone,
+  FaTwitter,
+  FaInstagram,
 } from "react-icons/fa";
 
 const ContactSection = () => {
   return (
     <section
       id="contact"
-      className="py-20 bg-gray-900 text-white dark:bg-gray-950 dark:text-white"
+      className="py-10 bg-gray-900 text-white dark:bg-gray-950 dark:text-white"
     >
+      {/* Top Heading & Intro */}
+      <div className="text-center mb-10">
+        <h2 className="text-4xl font-bold mb-2">Let's Work Together</h2>
+        <p className="text-gray-400 text-sm leading-relaxed">
+          I'm always open to discussing new opportunities and interesting projects.
+        </p>
+      </div>
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10">
         {/* Left Column */}
-        <div>
-          <h2 className="text-4xl font-bold mb-2">Get In Touch</h2>
-          <p className="text-gray-300 mb-8">
-            Let's discuss your next project, potential collaboration
-            opportunities, or just have a chat about technology!
-          </p>
 
-          <h3 className="text-xl font-semibold mb-3">Let's Connect</h3>
+        <div>
+
+          <h2 className="text-4xl font-bold mb-2">Get In Touch</h2>
           <p className="text-gray-400 mb-6 text-sm leading-relaxed">
             I'm always interested in new opportunities, innovative projects,
             and connecting with fellow developers. Whether you're looking for a
@@ -30,71 +36,66 @@ const ContactSection = () => {
             hello, I’d love to hear from you!
           </p>
 
-          {/* Contact Info */}
-          <div className="space-y-5 mb-8">
-            <div className="flex items-center gap-4 text-purple-400 text-lg">
-              <FaEnvelope />
-              <span className="text-white text-sm">
-                hafiztanzeel@example.com
-              </span>
+          <div className="flex-1 flex flex-col gap-6">
+            {/* Contact Info */}
+            <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
+              <h3 className="text-xl font-semibold mb-4">Get in Touch</h3>
+              <ul className="space-y-3">
+                <li className="flex items-center gap-3 text-purple-400 hover:scale-105 transition-transform duration-200">
+                  <FaEnvelope />{" "}
+                  <span className="text-white">hafiz.tanzeel@example.com</span>
+                </li>
+                <li className="flex items-center gap-3 text-green-400 hover:scale-105 transition-transform duration-200">
+                  <FaPhone />{" "}
+                  <span className="text-white">+92 XXX XXX XXXX</span>
+                </li>
+                <li className="flex items-center gap-3 text-pink-400 hover:scale-105 transition-transform duration-200">
+                  <FaMapMarkerAlt />{" "}
+                  <span className="text-white">Islamabad, Pakistan</span>
+                </li>
+              </ul>
             </div>
-            <div className="flex items-center gap-4 text-purple-400 text-lg">
-              <FaLinkedin />
-              <span className="text-white text-sm">
-                linkedin.com/in/hafiz-tanzeel
-              </span>
-            </div>
-            <div className="flex items-center gap-4 text-purple-400 text-lg">
-              <FaGithub />
-              <span className="text-white text-sm">
-                github.com/hafiz-tanzeel
-              </span>
-            </div>
-            <div className="flex items-center gap-4 text-purple-400 text-lg">
-              <FaMapMarkerAlt />
-              <span className="text-white text-sm">Islamabad, Pakistan</span>
-            </div>
-          </div>
 
-          {/* Areas of Interest */}
-          <div className="mb-6">
-            <p className="mb-2 text-sm font-semibold text-gray-300">
-              Areas of Interest
-            </p>
-            <div className="flex flex-wrap gap-2">
-              {[
-                "Web Development",
-                "AI & Machine Learning",
-                "Open Source",
-                "Mentorship",
-                "Tech Communities",
-                "Startup Projects",
-              ].map((tag, idx) => (
-                <span
-                  key={idx}
-                  className="text-xs bg-slate-800 text-gray-200 px-3 py-1 rounded-full"
-                >
-                  {tag}
-                </span>
-              ))}
+             {/* Areas of Interest */}
+            <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
+              <h3 className="text-xl font-semibold mb-4">Areas of Interest</h3>
+              <div className="flex flex-wrap gap-2">
+                {[
+                  "Web Development",
+                  "AI & Machine Learning",
+                  "Open Source",
+                  "Mentorship",
+                  "Tech Communities",
+                  "Startup Projects",
+                ].map((tag, idx) => (
+                  <span
+                    key={idx}
+                    className="text-xs bg-slate-700 text-gray-200 px-3 py-1 rounded-full"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
             </div>
-          </div>
 
-          {/* Resume Button */}
-          <a
-            href={`${import.meta.env.BASE_URL}resume.pdf`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-md text-sm font-medium transition"
-          >
-            <FaDownload className="text-base" /> Download My Resume
-          </a>
+
+            {/* Resume Button */}
+            <a
+              href={`${import.meta.env.BASE_URL}resume.pdf`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-md text-sm font-medium transition"
+            >
+              <FaDownload className="text-base" /> Download My Resume
+            </a>
+
+          </div>
         </div>
 
         {/* Right Column - Contact Form */}
-        <div className="bg-white dark:bg-gray-800 text-gray-800 dark:text-white p-8 rounded-xl shadow-lg">
+        <div className="bg-white dark:bg-gray-800 text-gray-800 dark:text-white p-12 rounded-xl shadow-lg">
           <h3 className="text-lg font-semibold mb-4">Send Me a Message</h3>
-          <form className="space-y-5">
+          <form className="space-y-4">
             <input
               type="text"
               placeholder="Your full name"
