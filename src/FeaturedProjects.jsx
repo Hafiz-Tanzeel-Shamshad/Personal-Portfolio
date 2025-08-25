@@ -61,16 +61,17 @@ export default function FeaturedProjects () {
                 <p className="mt-2 text-sm text-gray-400 flex-1">{p.description}</p>
 
                 {/* Tags */}
-                <div className="mt-3 flex flex-wrap gap-2">
-                  {p.tags.map((t, i) => (
-                    <span
-                      key={i}
-                      className={`text-xs ${getTagStyle()}`}
-                    >
-                      {t}
-                    </span>
-                  ))}
-                </div>
+<div className="mt-3 flex flex-wrap gap-2">
+  {p.tags.map((t, i) => (
+    <span
+      key={i}
+      className={`text-xs ${getTagStyle(t)}`}
+    >
+      {t}
+    </span>
+  ))}
+</div>
+
 
 
                 {/* Buttons */}
