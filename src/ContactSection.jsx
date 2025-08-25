@@ -6,8 +6,7 @@ import {
   FaPaperPlane,
   FaDownload,
   FaPhone,
-  FaTwitter,
-  FaInstagram,
+
 } from "react-icons/fa";
 
 const ContactSection = () => {
@@ -43,11 +42,11 @@ const ContactSection = () => {
               <ul className="space-y-3">
                 <li className="flex items-center gap-3 text-purple-400 hover:scale-105 transition-transform duration-200">
                   <FaEnvelope />{" "}
-                  <span className="text-white">hafiz.tanzeel@example.com</span>
+                  <span className="text-white">hafiztanzeel.pk@gmail.com</span>
                 </li>
                 <li className="flex items-center gap-3 text-green-400 hover:scale-105 transition-transform duration-200">
                   <FaPhone />{" "}
-                  <span className="text-white">+92 XXX XXX XXXX</span>
+                  <span className="text-white">+92 346 052 9820</span>
                 </li>
                 <li className="flex items-center gap-3 text-pink-400 hover:scale-105 transition-transform duration-200">
                   <FaMapMarkerAlt />{" "}

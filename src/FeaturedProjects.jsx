@@ -4,9 +4,9 @@ import { FaGithub, FaExternalLinkAlt, FaChevronDown, FaChevronUp } from "react-i
 import projects from "./data/projects";
 import { getTagStyle } from "./utils/colorUtils";
 
-export default function FeaturedProjects() {
+export default function FeaturedProjects () {
   const [showAll, setShowAll] = useState(false);
-  
+
   // Determine which projects to display
   const displayedProjects = showAll ? projects : projects.slice(0, 3);
 
@@ -65,12 +65,13 @@ export default function FeaturedProjects() {
                   {p.tags.map((t, i) => (
                     <span
                       key={i}
-                      className={`text-xs px-3 py-1 rounded-full font-medium ${getTagStyle(t)}`}
+                      className={`text-xs ${getTagStyle()}`}
                     >
                       {t}
                     </span>
                   ))}
                 </div>
+
 
                 {/* Buttons */}
                 <div className="mt-5 flex gap-3">
@@ -100,7 +101,7 @@ export default function FeaturedProjects() {
 
         {/* Show All Button - Only render if there are more than 3 projects */}
         {projects.length > 3 && (
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
