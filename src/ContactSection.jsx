@@ -57,7 +57,14 @@ const ContactSection = () => {
 
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10">
         {/* Left Column */}
+     
         <div className="space-y-6">
+        <div className="mb-6 p-6 bg-gray-800 rounded-lg shadow-lg">
+          <h1 className="text-2xl font-bold mb-2 text-green-400">Let's Connect</h1>
+          <p className="text-gray-300 text-base leading-relaxed">
+            I'm always interested in discussing new opportunities, collaborating on projects, or sharing knowledge about web development and technology.
+          </p>
+     </div>
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
             <h3 className="text-xl font-semibold mb-4">Get in Touch</h3>
             <ul className="space-y-3">
@@ -98,9 +105,9 @@ const ContactSection = () => {
             href={`${import.meta.env.BASE_URL}resume.pdf`}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-md text-sm font-medium transition"
+            className="w-full flex items-center justify-center gap-3 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition"
           >
-            <FaDownload /> Download My Resume
+            <FaDownload className="text-2xl" /> Download My Resume
           </a>
         </div>
 

@@ -4,10 +4,9 @@ const skillColorMap = {
   React: "bg-cyan-500/10 text-cyan-400 border border-cyan-500/20",
   "Node.js": "bg-green-500/10 text-green-400 border border-green-500/20",
   MongoDB: "bg-emerald-500/10 text-emerald-400 border border-emerald-500/20",
-  Express: "bg-gray-500/10 text-gray-400 border border-gray-500/20",
+  "Express.js": "bg-gray-500/10 text-gray-100 border border-gray-500/20",
   "Next.js": "bg-slate-500/10 text-slate-200 border border-slate-500/20",
-  Angular: "bg-red-500/10 text-red-400 border border-red-500/20",
-  Vue: "bg-green-400/10 text-green-300 border border-green-400/20",
+  EJS: "bg-yellow-700/10 text-yellow-500 border border-yellow-700/20",
 
   // Styling Frameworks
   Tailwind: "bg-sky-500/10 text-sky-400 border border-sky-500/20",
@@ -32,7 +31,11 @@ const skillColorMap = {
   PyTorch: "bg-red-500/10 text-red-400 border border-red-500/20",
   OpenCV: "bg-purple-500/10 text-purple-400 border border-purple-500/20",
   ScikitLearn: "bg-pink-500/10 text-pink-400 border border-pink-500/20",
-  Streamlit: "bg-red-600/10 text-red-500 border border-red-600/20",
+  Streamlit: "bg-fuchsia-600/10 text-fuchsia-400 border border-fuchsia-600/20",
+  NumPy: "bg-teal-600/10 text-teal-400 border border-teal-600/20",
+  Pandas: "bg-lime-600/10 text-lime-400 border border-lime-600/20",
+  Matplotlib: "bg-indigo-800/10 text-indigo-500 border border-indigo-800/20",
+  Pillow: "bg-rose-800/10 text-rose-500 border border-rose-800/20",
 
   // Backend / API
   Django: "bg-green-700/10 text-green-500 border border-green-700/20",
@@ -41,9 +44,12 @@ const skillColorMap = {
   GraphQL: "bg-pink-600/10 text-pink-400 border border-pink-600/20",
   RESTAPI: "bg-blue-600/10 text-blue-400 border border-blue-600/20",
   Laravel: "bg-rose-600/10 text-rose-500 border border-rose-600/20",
+  Passport: "bg-green-500/10 text-green-400 border border-green-500/20",
+  JWT: "bg-yellow-600/10 text-yellow-500 border border-yellow-600/20",
 
   // Mobile
   Flutter: "bg-blue-400/10 text-blue-300 border border-blue-400/20", // 🦋
+  Redux: "bg-purple-600/10 text-purple-500 border border-purple-600/20",
 
   // Other Tools
   WebSocket: "bg-violet-500/10 text-violet-400 border border-violet-500/20",

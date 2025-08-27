@@ -58,19 +58,25 @@ export default function FeaturedProjects () {
               {/* Card Content */}
               <div className="p-5 flex flex-col flex-1">
                 <h3 className="text-lg font-semibold text-white">{p.title}</h3>
-                <p className="mt-2 text-sm text-gray-400 flex-1">{p.description}</p>
+ <p
+  className="mt-2 text-sm text-gray-400 leading-relaxed text-left max-w-prose"
+>
+  {p.description}
+</p>
+
+
 
                 {/* Tags */}
-<div className="mt-3 flex flex-wrap gap-2">
-  {p.tags.map((t, i) => (
-    <span
-      key={i}
-      className={`text-xs ${getTagStyle(t)}`}
-    >
-      {t}
-    </span>
-  ))}
-</div>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {p.tags.map((t, i) => (
+                    <span
+                      key={i}
+                      className={`text-xs ${getTagStyle(t)}`}
+                    >
+                      {t}
+                    </span>
+                  ))}
+                </div>
 
 
 

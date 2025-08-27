@@ -1,12 +1,46 @@
-# React + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my **personal portfolio website** built with modern web technologies.  
+It showcases my skills, projects, and contact information in a clean and responsive design.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+🔗 [View Portfolio](https://hafiztanzeel.me)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
+- Smooth animations and transitions 
+- Projects showcase with links 
+- Contact form with EmailJS integration 
+- Projects showcase with links
+- Hosted on **Vercel** 
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Vite, TailwindCSS
+- **Icons:** React Icons
+- **Forms & Email:** EmailJS
+- **Hosting:** Vercel
+
+---
+## 🚀 Deployment
+This portfolio is deployed on **Vercel** and uses a custom domain purchased from **Namecheap**.  
+
+- Push your code to GitHub.  
+- Import the repo into [Vercel](https://vercel.com/).  
+- Set environment variables in the Vercel dashboard.  
+- Add your Namecheap domain in Vercel settings.  
+- Deploy 🚀
+
+## 👤 Author
+
+**Tanzeel Ahmed**
+
+- 📧 Email: [hafiztanzeel.pk@gmail.com](mailto:hafiztanzeel.pk@gmail.com)  
+- 💼 LinkedIn: [linkedin.com/in/hafiztanzeel-dev](https://linkedin.com/in/hafiztanzeel-dev)  
+- 💻 GitHub: [github.com/Hafiz-Tanzeel-Shamshad](https://github.com/Hafiz-Tanzeel-Shamshad)
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
