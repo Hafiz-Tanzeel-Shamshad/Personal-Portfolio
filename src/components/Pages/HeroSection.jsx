@@ -3,7 +3,8 @@ import { SiGithub, SiLinkedin, SiLeetcode } from "react-icons/si";
 import { Typewriter } from "react-simple-typewriter";
 import { MdDownload } from "react-icons/md";
 import React, { useRef, useEffect, useState } from "react";
-import myImage from "../../assets/IMG.jpg"; // Replace with your actual image path
+// Use public folder for production compatibility
+const myImage = "/img1.jpg";
 
 const texts = [
   "Python Developer",
