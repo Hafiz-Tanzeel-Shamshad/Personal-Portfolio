@@ -3,7 +3,7 @@ import { SiGithub, SiLinkedin, SiLeetcode } from "react-icons/si";
 import { Typewriter } from "react-simple-typewriter";
 import { MdDownload } from "react-icons/md";
 import React, { useRef, useEffect, useState } from "react";
-import myImage from "./assets/img.jpg"; // Replace with your actual image path
+import myImage from "../../assets/IMG.jpg"; // Replace with your actual image path
 
 const texts = [
   "Python Developer",
@@ -115,7 +115,6 @@ const HeroSection = () => {
               delaySpeed={1500}
             />
           </p>
-asas
           <p className="mt-3 text-gray-300">
             Computer Science Student at Riphah International University
           </p>
