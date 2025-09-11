@@ -1,13 +1,13 @@
 // import './App.css'
 import { useEffect } from "react";
-import AboutSection from "./AboutSection";
-import EducationSection from "./EducationSection";
-import Header from "./Header";
-import HeroSection from "./HeroSection";
-import SkillsSlider from "./SkillsSection";
-import ContactSection from "./ContactSection";
-import Footer from "./Footer"; 
-import FeaturedProjects from "./FeaturedProjects";
+import AboutSection from "./components/Pages/AboutSection.jsx";
+import EducationSection from "./components/Pages/EducationSection.jsx";
+import Header from "./components/Header/Header.jsx";
+import HeroSection from "./components/Pages/HeroSection.jsx";
+import SkillsSlider from "./components/Pages/SkillsSection.jsx";
+import ContactSection from "./components/Pages/ContactSection.jsx";
+import Footer from "./components/Footer/Footer.jsx";
+import FeaturedProjects from "./components/Pages/FeaturedProjects.jsx";
 
 export default function App() {
   return (
