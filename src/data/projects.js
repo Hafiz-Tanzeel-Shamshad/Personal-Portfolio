@@ -30,6 +30,17 @@ const projects = [
     repo: "https://github.com/Hafiz-Tanzeel-Shamshad/parallel-image-processing.git",
     tags: ["Streamlit", "NumPy", "Pandas", "Pillow", "Matplotlib"],
   },
+  {
+  id: 4,
+  title: "Dental Disease Detection System",
+  description:
+    "A comprehensive dental disease detection system developed as both a mobile and web application. The mobile app is built in Flutter, while the web UI is implemented in React, with a FastAPI backend. The system processes intraoral and panoramic images to detect dental issues using advanced computer vision and deep learning techniques.",
+  image: "/dental-project.jpg",
+  demo: "https://your-demo-link.com", // replace with actual demo link if available
+  repo: "https://github.com/Hafiz-Tanzeel-Shamshad/dental-disease-detection.git",
+  tags: ["Flutter", "React", "FastAPI", "Computer Vision", "Deep Learning", "YOLOv8", "YOLOv9"],
+}
+
   //   {
   //   id: 4,
   //   title: "New Cool Project",
