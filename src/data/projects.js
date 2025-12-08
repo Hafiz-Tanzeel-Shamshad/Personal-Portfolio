@@ -21,15 +21,27 @@ const projects = [
     tags: ["Node.js", "Express.js", "EJS", "MongoDB", "Passport", "Bootstrap"],
   },
   {
-    id: 3,
-    title: "KINZOO ENERGY",
-    description:
-      "KINZOO ENERGY is a crypto mining platform built with the MERN stack, offering secure OKX Wallet authentication, real-time mining analytics, and a built-in referral system. It enables users to monitor performance, track earnings, and manage all crypto assets seamlessly right from one powerful dashboard.",
-    image: "/img2.jpg",
-    demo: "#",
-    repo: "https://github.com/Hafiz-Tanzeel-Shamshad/crypto-mining-app.git",
-    tags: ["React", "Redux", "Tailwind", "Node.js", "Express.js", "MongoDB"],
-  },
+  id: 4,
+  title: "Mega Blog App",
+  description: "A full-featured blog application built with React, Redux Toolkit, and TailwindCSS, using Appwrite as the backend service. Users can create, edit, delete posts, upload images, and manage content with a rich text editor.",
+  image: "/img5.jpg", 
+  demo: "https://appwrite-blog-application-eight.vercel.app/",
+  repo: "https://github.com/Hafiz-Tanzeel-Shamshad/appwrite-blog-application",
+  tags: [
+    "React",
+    "Redux Toolkit",
+    "Vite",
+    "TailwindCSS",
+    "Appwrite",
+    "JavaScript",
+    "Rich Text Editor",
+    "CRUD",
+    "Authentication",
+    "File Upload",
+    "Backend Service"
+  ]
+},
+
   {
     id: 4,
     title: "Parallel Image Processing",
@@ -39,6 +51,16 @@ const projects = [
     demo: "https://parallel-image-processing.streamlit.app/",
     repo: "https://github.com/Hafiz-Tanzeel-Shamshad/parallel-image-processing.git",
     tags: ["Streamlit", "NumPy", "Pandas", "Pillow", "Matplotlib"],
+  },
+  {
+    id: 5,
+    title: "KINZOO ENERGY",
+    description:
+      "KINZOO ENERGY is a crypto mining platform built with the MERN stack, offering secure OKX Wallet authentication, real-time mining analytics, and a built-in referral system. It enables users to monitor performance, track earnings, and manage all crypto assets seamlessly right from one powerful dashboard.",
+    image: "/img2.jpg",
+    demo: "#",
+    repo: "https://github.com/Hafiz-Tanzeel-Shamshad/crypto-mining-app.git",
+    tags: ["React", "Redux", "Tailwind", "Node.js", "Express.js", "MongoDB"],
   },
   
 
