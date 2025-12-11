@@ -21,7 +21,7 @@ const projects = [
     tags: ["Node.js", "Express.js", "EJS", "MongoDB", "Passport", "Bootstrap"],
   },
   {
-  id: 4,
+  id: 3,
   title: "Mega Blog App",
   description: "A full-featured blog application built with React, Redux Toolkit, and TailwindCSS, using Appwrite as the backend service. Users can create, edit, delete posts, upload images, and manage content with a rich text editor.",
   image: "/img5.jpg", 
