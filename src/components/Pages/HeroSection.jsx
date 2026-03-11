@@ -3,8 +3,10 @@ import { SiGithub, SiLinkedin, SiLeetcode } from "react-icons/si";
 import { Typewriter } from "react-simple-typewriter";
 import { MdDownload } from "react-icons/md";
 import React, { useRef, useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 // use assets folder for development
 import myImage from "../../assets/img.jpg";
+import learningPosts from "../../data/learningPosts";
 
 
 
@@ -36,6 +38,7 @@ const HeroSection = () => {
   const projectsTarget = 15;
   const yearsTarget = 3;
   const clientsTarget = 8;
+  const currentlyLearning = learningPosts.slice(0, 3);
 
   useEffect(() => {
     const animateCount = (setter, target, duration = 1200) => {
@@ -127,12 +130,31 @@ const HeroSection = () => {
             experiences and exploring the frontiers of artificial intelligence.
           </p>
 
+          <div className="mt-5">
+            <p className="text-sm text-purple-300 font-semibold mb-2">
+              Currently Learning / Exploring
+            </p>
+            <div className="flex flex-wrap gap-2 max-w-xl">
+              {currentlyLearning.map((item) => (
+                <span
+                  key={item.id}
+                  className="text-xs px-3 py-1 rounded-full bg-slate-800 border border-slate-700 text-gray-200"
+                >
+                  {item.topic}
+                </span>
+              ))}
+            </div>
+          </div>
+
           {/* Buttons */}
           <div className="mt-8 flex gap-4 flex-wrap">
-            <button className="bg-purple-600 text-white px-6 py-3 rounded-md hover:bg-purple-700 transition-colors flex items-center gap-2">
-              <MdWork className="text-lg" />
+            <Link
+              to="/#projects"
+              className="group inline-flex items-center gap-2 rounded-md border border-slate-700 bg-slate-800 px-6 py-3 text-slate-100 shadow-md shadow-slate-900/30 transition-all duration-300 hover:-translate-y-0.5 hover:bg-slate-700 hover:border-slate-500"
+            >
+              <MdWork className="text-lg transition-transform duration-300 group-hover:rotate-6" />
               View My Work
-            </button>
+            </Link>
             <a
               href={`${import.meta.env.BASE_URL}resume.pdf`}
               download
@@ -143,11 +165,12 @@ const HeroSection = () => {
               <span>Resume</span>
             </a>
             <a
-              href="#contact"
+              href="/#contact"
               className="bg-gray-800 text-white px-6 py-3 rounded-md border border-gray-700 hover:bg-gray-700 transition-colors"
             >
               Get In Touch
             </a>
+            
           </div>
 
           {/* Social Links */}

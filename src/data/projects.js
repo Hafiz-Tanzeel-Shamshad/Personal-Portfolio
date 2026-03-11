@@ -16,7 +16,7 @@ const projects = [
     description:
       "This is a rental booking web app inspired by Airbnb, developed using MERN stack with EJS as the templating engine for server-side rendering. It provides a seamless experience for browsing, listing, and managing rental properties with authentication, CRUD operations and a responsive design.",
     image: "/img1.jpg",
-    demo: "https://www.hafiztanzeel.me/",
+    demo: "https://airbnb-app.up.railway.app/listings",
     repo: "https://github.com/Hafiz-Tanzeel-Shamshad/Airbnb-Mern-Project.git",
     tags: ["Node.js", "Express.js", "EJS", "MongoDB", "Passport", "Bootstrap"],
   },

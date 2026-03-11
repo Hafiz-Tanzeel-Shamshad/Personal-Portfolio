@@ -1,25 +1,23 @@
-// import './App.css'
-import { useEffect } from "react";
-import AboutSection from "./components/Pages/AboutSection.jsx";
-import EducationSection from "./components/Pages/EducationSection.jsx";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Header from "./components/Header/Header.jsx";
-import HeroSection from "./components/Pages/HeroSection.jsx";
-import SkillsSlider from "./components/Pages/SkillsSection.jsx";
-import ContactSection from "./components/Pages/ContactSection.jsx";
 import Footer from "./components/Footer/Footer.jsx";
-import FeaturedProjects from "./components/Pages/FeaturedProjects.jsx";
+import HomePage from "./pages/HomePage.jsx";
+import CertificationsPage from "./pages/CertificationsPage.jsx";
+import ExperiencePage from "./pages/ExperiencePage.jsx";
+import LearningBlogPage from "./pages/LearningBlogPage.jsx";
 
 export default function App() {
   return (
-    <>
-      <Header /> 
-      <HeroSection /> 
-      <AboutSection /> 
-      <SkillsSlider /> 
-      <FeaturedProjects /> 
-      <EducationSection /> 
-      <ContactSection /> 
-      <Footer /> 
-    </>
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/certifications" element={<CertificationsPage />} />
+        <Route path="/experience" element={<ExperiencePage />} />
+        <Route path="/tech-notes" element={<LearningBlogPage />} />
+        <Route path="/learning" element={<Navigate to="/tech-notes" replace />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
