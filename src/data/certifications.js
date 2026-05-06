@@ -121,7 +121,7 @@ const certifications = [
     id: 17,
     title: "CPA: Programming Essentials in C++",
     issuer: "CISCO",
-    image: "/assets/C%2B%2B%20Programming/CISCO-Programming%20fund-certificate.pdf",
+    image: "/assets/cpp%20programming/CISCO-Programming%20fund-certificate.pdf",
     category: "C++ Programming",
     description:
       "Covers C++ fundamentals, data types, control flow, and basic problem-solving with the language.",
@@ -130,7 +130,7 @@ const certifications = [
     id: 18,
     title: "Building simple Pong Game using C++",
     issuer: "Coursera",
-    image: "/assets/C%2B%2B%20Programming/Coursera%20Building%20simple%20Pong%20Game%20using%20C%2B%2B.pdf",
+    image: "/assets/cpp%20programming/Coursera%20Building%20simple%20Pong%20Game%20using%20CPP.pdf",
     category: "C++ Programming",
     description:
       "Builds a basic Pong game to practice rendering, game loops, and C++ program structure.",
@@ -139,7 +139,7 @@ const certifications = [
     id: 19,
     title: "C++ Basics: Selection and Iteration",
     issuer: "Coursera",
-    image: "/assets/C%2B%2B%20Programming/Coursera%20C%2B%2B%20Basics%20Selection%20and%20Iteration.pdf",
+    image: "/assets/cpp%20programming/Coursera%20CPP%20Basics%20Selection%20and%20Iteration.pdf",
     category: "C++ Programming",
     description:
       "Focuses on conditionals, loops, and foundational control structures in C++.",
@@ -148,7 +148,7 @@ const certifications = [
     id: 20,
     title: "Project: Creating Your First C++ Application",
     issuer: "Coursera",
-    image: "/assets/C%2B%2B%20Programming/Coursera%20Project%20Creating%20Your%20First%20C%2B%2B%20Application.pdf",
+    image: "/assets/cpp%20programming/Coursera%20Project%20Creating%20Your%20First%20CPP%20Application.pdf",
     category: "C++ Programming",
     description:
       "Guides a first C++ application project with compilation, input/output, and program organization.",
@@ -211,7 +211,7 @@ const certifications = [
     id: 27,
     title: "Partner: CPA - Programming Essentials in C++",
     issuer: "CISCO",
-    image: "/assets/C%2B%2B%20Programming/Partner-_CPA_-_Programming_Essentials_in_C--_certificate_40654-students-riphah-edu-pk_73757118-5214-48de-9ad6-782f763a6d7a.pdf",
+    image: "/assets/cpp%20programming/Partner-_CPA_-_Programming_Essentials_in_C--_certificate_40654-students-riphah-edu-pk_73757118-5214-48de-9ad6-782f763a6d7a.pdf",
     category: "C++ Programming",
     description:
       "Confirms C++ essentials with emphasis on syntax, control structures, and foundational programming skills.",
@@ -220,7 +220,7 @@ const certifications = [
     id: 28,
     title: "Partner: CPP - Advanced Programming in C++",
     issuer: "CISCO",
-    image: "/assets/C%2B%2B%20Programming/Partner-_CPP_-_Advanced_Programming_in_C--_certificate_40654-students-riphah-edu-pk_3bdf7dbf-cb7a-43e7-a73a-7942b7c3ed83.pdf",
+    image: "/assets/cpp%20programming/Partner-_CPP_-_Advanced_Programming_in_C--_certificate_40654-students-riphah-edu-pk_3bdf7dbf-cb7a-43e7-a73a-7942b7c3ed83.pdf",
     category: "C++ Programming",
     description:
       "Highlights advanced C++ topics, including OOP design, memory management, and best practices.",
