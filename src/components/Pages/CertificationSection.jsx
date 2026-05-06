@@ -63,8 +63,7 @@ export default function CertificationSection() {
                 Certifications
               </h2>
               <p className="mt-3 text-slate-300 max-w-2xl">
-                Certificates that reflect my continuous learning journey in web
-                development, software engineering, and AI.
+                A collection of industry-recognized certifications from platforms like Cisco, Coursera, and academic institutions showcasing my expertise in AI, Machine Learning, software engineering, networking, and cybersecurity alongside relevant industry workshops.
               </p>
             </div>
             <div className="w-full max-w-md">

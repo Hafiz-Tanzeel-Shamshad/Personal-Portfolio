@@ -288,6 +288,24 @@ const certifications = [
     description:
       "Introduces OS fundamentals including processes, memory, and core system services.",
   },
+  {
+    id: 36,
+    title: "Programming BootCamp",
+    issuer: "",
+    image: "/assets/WorkShops/Programming-BootCamp-Certificate.pdf",
+    category: "WorkShops",
+    description:
+      "Intensive bootcamp focused on programming fundamentals and hands-on practice.",
+  },
+  {
+    id: 37,
+    title: "IEEE Summer School",
+    issuer: "",
+    image: "/assets/WorkShops/IEEE-Certificate.pdf",
+    category: "WorkShops",
+    description:
+      "Participated in IEEE summer school sessions on emerging tech topics.",
+  },
 ];
 
 export default certifications;
