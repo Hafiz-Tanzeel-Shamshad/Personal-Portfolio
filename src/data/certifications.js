@@ -261,6 +261,33 @@ const certifications = [
     description:
       "Surveys core ML ideas such as supervised learning, model evaluation, and feature engineering basics.",
   },
+  {
+    id: 33,
+    title: "Endpoint Security",
+    issuer: "CISCO",
+    image: "/assets/Information%20Security/Endpoint%20Security.pdf",
+    category: "Information Security",
+    description:
+      "Introduces endpoint protection basics, device hardening, and threat prevention essentials.",
+  },
+  {
+    id: 34,
+    title: "Linux Unhatched",
+    issuer: "",
+    image: "/assets/Operating%20System/Linux%20Unhatched.pdf",
+    category: "Operating System",
+    description:
+      "Covers beginner Linux concepts, terminal usage, and essential system navigation skills.",
+  },
+  {
+    id: 35,
+    title: "Operating Systems Basics",
+    issuer: "",
+    image: "/assets/Operating%20System/Operating%20Systems%20Basics.pdf",
+    category: "Operating System",
+    description:
+      "Introduces OS fundamentals including processes, memory, and core system services.",
+  },
 ];
 
 export default certifications;
