@@ -23,10 +23,18 @@ function ScrollToTop() {
 }
 
 const CANONICAL_BASE = "https://www.hafiztanzeel.me";
+const SECTION_ROUTE_PATHS = new Set([
+  "/projects",
+  "/contact",
+  "/about",
+  "/skills",
+  "/education",
+]);
 
 function CanonicalTag() {
   const { pathname } = useLocation();
-  const canonicalPath = pathname === "/" ? "/" : pathname;
+  const normalizedPath = pathname === "/" ? "/" : pathname.replace(/\/+$/, "");
+  const canonicalPath = SECTION_ROUTE_PATHS.has(normalizedPath) ? "/" : normalizedPath;
   const canonicalUrl = `${CANONICAL_BASE}${canonicalPath}`;
 
   return (
