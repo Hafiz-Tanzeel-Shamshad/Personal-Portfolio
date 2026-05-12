@@ -1,13 +1,16 @@
-import { SiYoutube, SiLeetcode, SiGithub, SiLinkedin } from "react-icons/si";
+import { SiYoutube, SiLeetcode, SiGithub } from "react-icons/si";
+import { FaLinkedin } from "react-icons/fa";
 import { MdEmail, MdWeb, MdRateReview, MdSchool, MdArticle } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
-  const scrollToSection = (sectionId) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+  const quickLinks = [
+    { label: "About", path: "/about" },
+    { label: "Skills", path: "/skills" },
+    { label: "Projects", path: "/projects" },
+    { label: "Blog", path: "/tech-notes" },
+    { label: "Contact", path: "/contact" },
+  ];
 
   const currentYear = new Date().getFullYear();
 
@@ -61,7 +64,7 @@ export default function Footer() {
                   className="w-10 h-10 bg-slate-700 hover:bg-gray-800 rounded-lg flex items-center justify-center transition-all duration-300 transform hover:-translate-y-1 group"
                   aria-label="LinkedIn"
                 >
-                  <SiLinkedin className="text-lg group-hover:text-[#0a66c2]" />
+                  <FaLinkedin className="text-lg group-hover:text-[#0a66c2]" />
                 </a>
                 <a
                   href="https://mail.google.com/mail/?view=cm&to=hafiztanzeel.pk@gmail.com"
@@ -98,15 +101,15 @@ export default function Footer() {
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-300 mb-4">Quick Links</h3>
             <ul className="space-y-3">
-              {["about", "skills", "projects", "blog", "contact"].map((id) => (
-                <li key={id}>
-                  <button
-                    onClick={() => scrollToSection(id)}
+              {quickLinks.map((link) => (
+                <li key={link.path}>
+                  <Link
+                    to={link.path}
                     className="text-slate-400 hover:text-blue-400 transition-colors duration-300 text-sm flex items-center group"
                   >
                     <span className="w-1 h-1 bg-blue-400 rounded-full mr-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
-                    {id.charAt(0).toUpperCase() + id.slice(1)}
-                  </button>
+                    {link.label}
+                  </Link>
                 </li>
               ))}
             </ul>

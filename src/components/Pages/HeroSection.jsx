@@ -1,5 +1,6 @@
 import { MdEmail, MdWork, MdSchool } from "react-icons/md";
-import { SiGithub, SiLinkedin, SiLeetcode } from "react-icons/si";
+import { SiGithub, SiLeetcode } from "react-icons/si";
+import { FaLinkedin } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
 import { MdDownload } from "react-icons/md";
 import React, { useRef, useEffect, useState } from "react";
@@ -149,7 +150,7 @@ const HeroSection = () => {
           {/* Buttons */}
           <div className="mt-8 flex gap-4 flex-wrap">
             <Link
-              to="/#projects"
+              to="/projects"
               className="group inline-flex items-center gap-2 rounded-md border border-slate-700 bg-slate-800 px-6 py-3 text-slate-100 shadow-md shadow-slate-900/30 transition-all duration-300 hover:-translate-y-0.5 hover:bg-slate-700 hover:border-slate-500"
             >
               <MdWork className="text-lg transition-transform duration-300 group-hover:rotate-6" />
@@ -164,12 +165,12 @@ const HeroSection = () => {
               <MdDownload className="text-lg" />
               <span>Resume</span>
             </a>
-            <a
-              href="/#contact"
+            <Link
+              to="/contact"
               className="bg-gray-800 text-white px-6 py-3 rounded-md border border-gray-700 hover:bg-gray-700 transition-colors"
             >
               Get In Touch
-            </a>
+            </Link>
             
           </div>
 
@@ -191,7 +192,7 @@ const HeroSection = () => {
               className="w-12 h-12 bg-slate-800 hover:bg-blue-600 rounded-full flex items-center justify-center transition-all duration-300 transform hover:-translate-y-1"
               aria-label="LinkedIn"
             >
-              <SiLinkedin className="text-xl" />
+              <FaLinkedin className="text-xl" />
             </a>
             <a
               href="https://leetcode.com/u/Hafiz-Tanzeel/"

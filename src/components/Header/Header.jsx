@@ -40,9 +40,9 @@ const Header = () => {
           <Link to="/" className="hover:text-purple-400 transition-colors">
             Home
           </Link>
-          <a href="/#projects" className="hover:text-purple-400 transition-colors">
+          <Link to="/projects" className="hover:text-purple-400 transition-colors">
             Projects
-          </a>
+          </Link>
           <Link to="/certifications" className="hover:text-purple-400 transition-colors">
             Certifications
           </Link>
@@ -52,9 +52,9 @@ const Header = () => {
           <Link to="/tech-notes" className="hover:text-purple-400 transition-colors">
             Tech Notes
           </Link>
-          <a href="/#contact" className="hover:text-purple-400 transition-colors">
+          <Link to="/contact" className="hover:text-purple-400 transition-colors">
             Contact
-          </a>
+          </Link>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -74,9 +74,9 @@ const Header = () => {
             <Link to="/" className="hover:text-purple-400 transition-colors py-2" onClick={closeMobileMenu}>
               Home
             </Link>
-            <a href="/#projects" className="hover:text-purple-400 transition-colors py-2" onClick={closeMobileMenu}>
+            <Link to="/projects" className="hover:text-purple-400 transition-colors py-2" onClick={closeMobileMenu}>
               Projects
-            </a>
+            </Link>
             <Link to="/certifications" className="hover:text-purple-400 transition-colors py-2" onClick={closeMobileMenu}>
               Certifications
             </Link>
@@ -86,18 +86,18 @@ const Header = () => {
             <Link to="/tech-notes" className="hover:text-purple-400 transition-colors py-2" onClick={closeMobileMenu}>
               Tech Notes
             </Link>
-            <a href="/#about" className="hover:text-purple-400 transition-colors py-2" onClick={closeMobileMenu}>
+            <Link to="/about" className="hover:text-purple-400 transition-colors py-2" onClick={closeMobileMenu}>
               About
-            </a>
-            <a href="/#skills" className="hover:text-purple-400 transition-colors py-2" onClick={closeMobileMenu}>
+            </Link>
+            <Link to="/skills" className="hover:text-purple-400 transition-colors py-2" onClick={closeMobileMenu}>
               Skills
-            </a>
-            <a href="/#education" className="hover:text-purple-400 transition-colors py-2" onClick={closeMobileMenu}>
+            </Link>
+            <Link to="/education" className="hover:text-purple-400 transition-colors py-2" onClick={closeMobileMenu}>
               Education
-            </a>
-            <a href="/#contact" className="hover:text-purple-400 transition-colors py-2" onClick={closeMobileMenu}>
+            </Link>
+            <Link to="/contact" className="hover:text-purple-400 transition-colors py-2" onClick={closeMobileMenu}>
               Contact
-            </a>
+            </Link>
           </nav>
         </div>
       )}

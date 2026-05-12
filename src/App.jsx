@@ -36,6 +36,38 @@ function CanonicalTag() {
   );
 }
 
+function SectionRoute({ sectionId }) {
+  useEffect(() => {
+    let attempts = 0;
+    const maxAttempts = 60;
+
+    const scrollToSection = () => {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth", block: "start" });
+        return;
+      }
+
+      attempts += 1;
+      if (attempts <= maxAttempts) {
+        window.requestAnimationFrame(scrollToSection);
+      }
+    };
+
+    scrollToSection();
+  }, [sectionId]);
+
+  return <HomePage />;
+}
+
+const sectionRoutes = [
+  { path: "/projects", sectionId: "projects" },
+  { path: "/contact", sectionId: "contact" },
+  { path: "/about", sectionId: "about" },
+  { path: "/skills", sectionId: "skills" },
+  { path: "/education", sectionId: "education" },
+];
+
 export default function App() {
   return (
     <Router>
@@ -44,6 +76,13 @@ export default function App() {
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        {sectionRoutes.map(({ path, sectionId }) => (
+          <Route
+            key={path}
+            path={path}
+            element={<SectionRoute sectionId={sectionId} />}
+          />
+        ))}
         <Route path="/certifications" element={<CertificationsPage />} />
         <Route path="/experience" element={<ExperiencePage />} />
         <Route path="/tech-notes" element={<LearningBlogPage />} />

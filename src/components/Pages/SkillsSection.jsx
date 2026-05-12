@@ -7,14 +7,13 @@ import {
   SiJavascript,
   SiLinux,
   SiHtml5,
-  SiCss3,
+  SiCss,
   SiBootstrap,
   SiTailwindcss,
   SiPhp,
   SiDocker,
   SiMysql,
   SiPython,
-  SiAmazon,  // Fixed: This is the correct import for AWS
   SiCplusplus,
   SiOpenjdk,
   SiDjango,
@@ -28,12 +27,12 @@ import {
   SiScikitlearn,
   SiFirebase
 } from "react-icons/si";
-import { FaChartBar, FaLaptopCode, FaServer, FaDatabase, FaBrain } from "react-icons/fa";
+import { FaAmazon, FaChartBar, FaLaptopCode, FaServer, FaDatabase, FaBrain } from "react-icons/fa";
 
 const skills = [
   { name: "Linux", icon: SiLinux, color: "text-yellow-400", level: "Advanced" },
   { name: "HTML", icon: SiHtml5, color: "text-orange-500", level: "Expert" },
-  { name: "CSS", icon: SiCss3, color: "text-blue-500", level: "Expert" },
+  { name: "CSS", icon: SiCss, color: "text-blue-500", level: "Expert" },
   { name: "JavaScript", icon: SiJavascript, color: "text-yellow-500", level: "Expert" },
   { name: "Bootstrap", icon: SiBootstrap, color: "text-purple-500", level: "Advanced" },
   { name: "Tailwind", icon: SiTailwindcss, color: "text-cyan-400", level: "Expert" },
@@ -45,7 +44,7 @@ const skills = [
   { name: "MongoDB", icon: SiMongodb, color: "text-green-500", level: "Advanced" },
   { name: "MySQL", icon: SiMysql, color: "text-blue-600", level: "Intermediate" },
   { name: "Python", icon: SiPython, color: "text-yellow-400", level: "Intermediate" },
-  { name: "AWS", icon: SiAmazon, color: "text-orange-400", level: "Beginner" }, // Fixed: Using SiAmazon
+  { name: "AWS", icon: FaAmazon, color: "text-orange-400", level: "Beginner" },
   { name: "C++", icon: SiCplusplus, color: "text-blue-500", level: "Intermediate" },
   { name: "Java", icon: SiOpenjdk, color: "text-red-500", level: "Intermediate" },
 
@@ -244,7 +243,7 @@ export default function SkillsSlider() {
             </div>
             <div className="flex items-center justify-between mb-3">
               <div className="flex items-center">
-                <SiAmazon className="text-orange-500 mr-2 text-lg" /> {/* Fixed: Using SiAmazon */}
+                <FaAmazon className="text-orange-500 mr-2 text-lg" />
                 <span>AWS</span>
               </div>
               <SkillDots filled={2} />
