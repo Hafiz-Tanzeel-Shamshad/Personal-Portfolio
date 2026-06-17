@@ -17,14 +17,15 @@ const Header = () => {
   const closeMobileMenu = () => setMobileMenuOpen(false);
 
   return (
-    <header 
+    <header
       className={`bg-[#0f172a]  text-white shadow-lg px-6 md:px-9 sticky top-0 z-50 backdrop-blur-md transition-all duration-300 ${
         shrink ? "py-2" : "py-4"
       }`}
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Left: Logo Only */}
-        <Link to="/"
+        <Link
+          to="/"
           className="backdrop-blur-md bg-white/10 border border-white/30 rounded-full flex items-center justify-center w-14 h-14 md:w-16 md:h-16"
           style={{
             boxShadow: "0 6px 30px 0 rgba(120, 120, 220, 0.25)",

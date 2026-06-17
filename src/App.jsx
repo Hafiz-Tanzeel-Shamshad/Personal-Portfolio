@@ -7,6 +7,8 @@ import HomePage from "./pages/HomePage.jsx";
 import CertificationsPage from "./pages/CertificationsPage.jsx";
 import ExperiencePage from "./pages/ExperiencePage.jsx";
 import LearningBlogPage from "./pages/LearningBlogPage.jsx";
+import ChatBot from "./chatbot/ChatBot";
+
 
 function ScrollToTop() {
   const location = useLocation();
@@ -97,6 +99,7 @@ export default function App() {
         <Route path="/learning" element={<Navigate to="/tech-notes" replace />} />
       </Routes>
       <Footer />
+      <ChatBot />
     </Router>
   );
 }
