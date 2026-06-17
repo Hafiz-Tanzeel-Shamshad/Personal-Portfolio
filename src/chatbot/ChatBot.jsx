@@ -8,28 +8,34 @@ export default function ChatBot() {
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
   const bottomRef = useRef(null);
+  const textRef = useRef(null);
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [chat, loading]);
 
-  async function send() {
-    if (!msg.trim() || loading) return;
-    const userMsg = msg;
+  function autoGrow() {
+    const el = textRef.current;
+    if (!el) return;
+    el.style.height = "auto";
+    el.style.height = Math.min(el.scrollHeight, 100) + "px";
+  }
+
+  async function send(overrideMsg) {
+    const text = (overrideMsg || msg).trim();
+    if (!text || loading) return;
     setMsg("");
+    if (textRef.current) textRef.current.style.height = "auto";
     setLoading(true);
 
     try {
-      const answer = await askAI(userMsg);
-      setChat((prev) => [...prev, { user: userMsg, bot: answer }]);
+      const answer = await askAI(text);
+      setChat((prev) => [...prev, { user: text, bot: answer }]);
     } catch (err) {
       console.error("ChatBot error:", err);
       setChat((prev) => [
         ...prev,
-        {
-          user: userMsg,
-          bot: "Sorry, I couldn't get a response. Check the console or your API key.",
-        },
+        { user: text, bot: "Sorry, I couldn't get a response. Check the console or your API key." },
       ]);
     } finally {
       setLoading(false);
@@ -37,7 +43,10 @@ export default function ChatBot() {
   }
 
   function handleKeyDown(e) {
-    if (e.key === "Enter") send();
+    if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault();
+      send();
+    }
   }
 
   return (
@@ -66,42 +75,50 @@ export default function ChatBot() {
               <div className="chat-placeholder">
                 <p className="chat-placeholder-heading">Ask me anything about my portfolio!</p>
                 <p className="chat-placeholder-desc">
-                  Ask me about his projects, skills, education, experience, and more. I'm here to help you learn about his work and background.
+                  Ask me about his projects, skills, education, experience, and more.
                 </p>
               </div>
             )}
-            {loading && chat.length === 0 && (
-              <div className="chat-loading">
-                <div className="chat-loading-dots">
-                  <span /><span /><span />
-                </div>
-                <p className="chat-loading-text">Getting answer...</p>
-              </div>
-            )}
+
             {chat.map((c, i) => (
-              <div key={i} className="chat-entry">
-                <div className="chat-bubble user-bubble">
-                  <span className="chat-label">You</span>
-                  <p>{c.user}</p>
+              <div key={i} className="chat-group">
+                <div className="chat-row user-row">
+                  <div className="chat-bubble user-bubble ht-rise">
+                    <p>{c.user}</p>
+                  </div>
                 </div>
-                <div className="chat-bubble bot-bubble">
-                  <span className="chat-label">Bot</span>
-                  <p>{c.bot}</p>
+                <div className="chat-row bot-row">
+                  <div className="bot-avatar">{">"}_</div>
+                  <div className="chat-bubble bot-bubble ht-rise">
+                    <p>{c.bot}</p>
+                  </div>
                 </div>
               </div>
             ))}
+
+            {loading && (
+              <div className="chat-row bot-row">
+                <div className="bot-avatar">{">"}_</div>
+                <div className="typing-indicator">
+                  <span /><span /><span />
+                </div>
+              </div>
+            )}
+
             <div ref={bottomRef} />
           </div>
 
           <div className="chat-input-area">
-            <input
+            <textarea
+              ref={textRef}
               value={msg}
-              onChange={(e) => setMsg(e.target.value)}
+              onChange={(e) => { setMsg(e.target.value); autoGrow(); }}
               onKeyDown={handleKeyDown}
-              placeholder="Type your message..."
+              placeholder="Type a message..."
               disabled={loading}
+              rows={1}
             />
-            <button onClick={send} disabled={loading}>
+            <button onClick={() => send()} disabled={loading || !msg.trim()}>
               {loading ? (
                 <span className="chat-btn-loading">
                   <span /><span /><span />
