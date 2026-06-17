@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { askAI } from "../ai/rag";
 import "./chat.css";
 
@@ -7,6 +7,11 @@ export default function ChatBot() {
   const [chat, setChat] = useState([]);
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
+  const bottomRef = useRef(null);
+
+  useEffect(() => {
+    bottomRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [chat, loading]);
 
   async function send() {
     if (!msg.trim() || loading) return;
@@ -66,7 +71,12 @@ export default function ChatBot() {
               </div>
             )}
             {loading && chat.length === 0 && (
-              <p className="chat-placeholder">Thinking...</p>
+              <div className="chat-loading">
+                <div className="chat-loading-dots">
+                  <span /><span /><span />
+                </div>
+                <p className="chat-loading-text">Getting answer...</p>
+              </div>
             )}
             {chat.map((c, i) => (
               <div key={i} className="chat-entry">
@@ -80,6 +90,7 @@ export default function ChatBot() {
                 </div>
               </div>
             ))}
+            <div ref={bottomRef} />
           </div>
 
           <div className="chat-input-area">
@@ -91,7 +102,13 @@ export default function ChatBot() {
               disabled={loading}
             />
             <button onClick={send} disabled={loading}>
-              {loading ? "..." : "Send"}
+              {loading ? (
+                <span className="chat-btn-loading">
+                  <span /><span /><span />
+                </span>
+              ) : (
+                "Send"
+              )}
             </button>
           </div>
         </div>
