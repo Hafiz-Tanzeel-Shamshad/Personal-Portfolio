@@ -32,7 +32,7 @@
   bottom: 90px;
   right: 24px;
   width: 370px;
-  max-height: 540px;
+  height: min(540px, calc(100vh - 110px));
   background: #fff;
   border-radius: 18px;
   box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
@@ -445,7 +445,7 @@
     right: 12px;
     bottom: 82px;
     width: calc(100vw - 24px);
-    max-height: calc(100vh - 115px);
+    height: calc(100vh - 100px);
   }
 
   .bot-avatar {
