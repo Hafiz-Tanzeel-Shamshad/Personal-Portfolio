@@ -1,317 +1,352 @@
 export const knowledge = `
 
-Name:
-Hafiz Tanzeel Shamshad
+Professional Summary:
 
-Role:
-Software Engineer
-Full-Stack Developer
-AI & Machine Learning Engineer
+Machine Learning Engineer:
+Machine Learning Engineer with 1+ years of experience in Computer Vision,
+Deep Learning, Machine Learning, and Full-Stack Web Development.
+
+Experienced in building AI-powered healthcare applications,
+computer vision systems, backend APIs, and scalable web applications.
+
+Hands-on experience developing Dental Disease Detection Systems
+using intraoral and panoramic dental images with advanced deep learning
+techniques including YOLOv8, YOLOv9, PyTorch, OpenCV, and FastAPI.
+
+Strong background in Machine Learning, Data Preprocessing,
+Feature Engineering, Model Training, and AI Deployment.
+
+Experience:
+
+Lab Assistant
+Organization:
+Riphah International University
 
 Location:
 Islamabad, Pakistan
 
-About:
-Hafiz Tanzeel Shamshad is a Software Engineer specializing in Full-Stack Development,
-Artificial Intelligence, Machine Learning, and Backend Engineering.
+Duration:
+September 2024 – December 2025
 
-He builds scalable web applications, AI-powered systems, RAG pipelines,
-LLM applications, Computer Vision solutions, and modern cloud-based software.
+Responsibilities:
+• Assisted students in Artificial Intelligence.
+• Assisted students in Programming Fundamentals.
+• Assisted students in Assembly Language.
+• Helped students debug programming assignments.
+• Improved students' problem-solving skills.
+• Prepared laboratory materials.
+• Assisted faculty during practical sessions.
+• Ensured smooth execution of lab classes.
 
-He has experience in internships, freelance development, academic AI research,
-and software engineering projects.
+Python Developer Intern
+
+Company:
+TMR Consulting
+
+Location:
+Islamabad, Pakistan
+
+Duration:
+January 2024 – March 2024
+
+Responsibilities:
+• Developed backend systems using Python.
+• Built REST APIs using Django.
+• Worked with Django REST Framework (DRF).
+• Collaborated with development teams.
+• Contributed to production-level backend projects.
+
+Machine Learning Intern
+
+Company:
+Arch Technologies
+
+Location:
+Islamabad, Pakistan
+
+Duration:
+June 2023 – August 2023
+
+Responsibilities:
+• Data preprocessing.
+• Feature engineering.
+• Exploratory Data Analysis (EDA).
+• Built Machine Learning models.
+• Optimized model performance.
+• Used Scikit-learn, Pandas and NumPy.
+• Worked on real-world ML projects.
+
+Frontend Developer Intern
+
+Company:
+Kairiz Cyber Technologies
+
+Location:
+Islamabad, Pakistan
+
+Duration:
+June 2022 – August 2022
+
+Responsibilities:
+• Developed React.js applications.
+• Built reusable React components.
+• Used Hooks (useState, useEffect, useContext).
+• Integrated REST APIs.
+• Worked with Axios and Fetch API.
+• Implemented responsive UI using modern frontend practices.
 
 Education:
 
-Degree:
-Bachelor of Science in Computer Science (BSCS)
+Bachelor of Science in Computer Science
 
 University:
 Riphah International University
 
+Location:
+Islamabad
+
+Duration:
+January 2022 – December 2025
+
 CGPA:
-3.7 / 4.0
+3.86 / 4.00
 
-Academic Standing:
-Dean's List
+Skills:
 
-Status:
-Final Year Student
-
-Specialization:
-Computer Science
-Artificial Intelligence
-Machine Learning
-Computer Vision
-Full-Stack Development
-
-Relevant Subjects:
-Operating Systems
-Database Systems
-Data Structures
-Algorithms
-Object Oriented Programming
-Computer Architecture
-Theory of Automata
-Assembly Language
-Software Engineering
-
-Experience:
-
-Machine Learning Intern
-Worked on AI models, Deep Learning, Computer Vision, model training,
-data preprocessing, and research-based AI applications.
-
-Python Backend Developer
-Developed REST APIs using FastAPI.
-Built backend systems, authentication, APIs,
-database integration and AI-powered services.
-
-Frontend Developer (React.js)
-Developed responsive user interfaces using React,
-Tailwind CSS, JavaScript, Redux and REST APIs.
-
-Lab Assistant
-Assisted students in:
-Programming Fundamentals
-Object Oriented Programming
-Artificial Intelligence
-Programming Labs
-
-Freelance Software Developer
-Developed:
-MERN Stack Applications
-Business Websites
-Admin Dashboards
-REST APIs
-WordPress Solutions
-AI-powered Applications
-
-Technical Skills:
+Programming Languages:
+Python
+JavaScript
+C++
+Java
+PHP
 
 Frontend:
 React.js
-Next.js
-JavaScript (ES6+)
-HTML5
-CSS3
+Redux Toolkit
 Tailwind CSS
 Bootstrap
-Redux Toolkit
+HTML5
+CSS3
 
 Backend:
 Node.js
 Express.js
 FastAPI
-Flask
+Django
+Django REST Framework
 REST APIs
 JWT Authentication
 OAuth
+
+Artificial Intelligence:
+Machine Learning
+Deep Learning
+Computer Vision
+Natural Language Processing
+Large Language Models
+Retrieval-Augmented Generation (RAG)
+AI Agents
+PyTorch
+TensorFlow
+Scikit-learn
+Keras
+OpenCV
+NumPy
+Pandas
+Matplotlib
 
 Databases:
 MongoDB
 MySQL
 Supabase
 
-Artificial Intelligence:
-Python
-Machine Learning
-Deep Learning
-Computer Vision
-Natural Language Processing
-LLMs
-RAG
-AI Agents
-TensorFlow
-PyTorch
-Scikit-learn
-OpenCV
-NumPy
-Pandas
-Matplotlib
-
-Cloud & DevOps:
-AWS
+Cloud:
+AWS EC2
+AWS S3
 Railway
 Docker
+Render
 Vercel
 Netlify
+
+Version Control:
 Git
 GitHub
-
-Programming Languages:
-JavaScript
-Python
-C++
-Java
-PHP
-
-Core CS:
-Data Structures
-Algorithms
-Object-Oriented Programming
-System Design
-Operating Systems
-Database Management Systems
 
 Projects:
 
 Dental Disease Detection System
-Description:
-AI-powered dental disease detection platform.
 
-Technologies:
-React
+Duration:
+November 2024 – December 2025
+
+Tech Stack:
+React.js
 Flutter
 FastAPI
-Python
+Supabase
 PyTorch
-YOLOv8
-YOLOv9
-Computer Vision
+YOLOv8l
+YOLOv9c
+OpenCV
+AWS EC2
+AWS S3
+ClickUp
 
-Features:
-Real-time disease detection
-Web Application
-Mobile Application
-87% mAP Accuracy
+Achievements:
+• Fine-tuned YOLO models achieving 87% mAP.
+• Benchmarked multiple object detection architectures.
+• Applied CLAHE image enhancement.
+• Used class-balanced augmentation.
+• Built real-time inference pipeline.
+• Generated bounding boxes with confidence scores.
+• Deployed Web and Mobile applications.
+• Implemented Role-Based Access Control (RBAC).
 
-Rice Leaf Disease Classification
+Rice Leaf Disease Classification System
 
-Technologies:
-Python
-TensorFlow
-Keras
-CNN
+Duration:
+January 2024 – August 2024
 
-Description:
-Deep learning model for agricultural disease detection.
-
-Indoor Localization using RSSI
-
-Technologies:
-Python
-Machine Learning
-
-Description:
-Indoor positioning using BLE,
-WiFi,
-Zigbee,
-LoRaWAN signal datasets.
-
-PDF Question Answering System
-
-Technologies:
-Python
-LangChain
-FAISS
-LLMs
-Streamlit
-
-Features:
-Upload PDFs
-Semantic Search
-Chat with Documents
-RAG Pipeline
-
-Portfolio Chatbot
-
-Technologies:
+Tech Stack:
 React
 Node.js
-LLMs
-RAG
-Vector Database
+Flask
+Python
+Keras
+CNN
+ANN
+VGG16
+RMSprop
 
 Features:
-Answers recruiter questions using portfolio knowledge.
+• Multi-class rice disease classification.
+• Compared ANN, CNN and VGG16.
+• Built complete training pipeline.
+• Performed data augmentation.
+• Documented experiments and evaluation.
 
-Airbnb Booking Application
+Indoor Localization via RSSI Signal Analysis
 
-Technologies:
+Duration:
+June 2022 – September 2022
+
+Tech Stack:
+Python
+Scikit-learn
+Pandas
+NumPy
+Matplotlib
+
+Features:
+• RSSI-based indoor positioning.
+• BLE, WiFi, Zigbee and LoRaWAN datasets.
+• Benchmarked Machine Learning algorithms.
+• Achieved up to 92.5% prediction accuracy.
+• Performance visualization and analysis.
+
+BuyNow E-Commerce Platform
+
+Duration:
+November 2025 – December 2025
+
+Tech Stack:
+React.js
+Redux Toolkit
+Tailwind CSS
+Node.js
+Express.js
+MongoDB
+JWT
+Axios
+
+Features:
+• JWT Authentication.
+• Refresh Tokens.
+• Role-Based Access Control.
+• Admin Dashboard.
+• Product Search.
+• Order Management.
+• Cash on Delivery.
+• Mock Card Payments.
+
+Airbnb Booking Platform
+
+Duration:
+June 2022 – September 2022
+
+Tech Stack:
 Node.js
 Express.js
 MongoDB
 EJS
 Passport.js
-Bootstrap
+Cloudinary
+Mapbox
+Render
 
 Features:
-Authentication
-CRUD Listings
-Booking Platform
+• Server-side Rendering.
+• CRUD Listings.
+• Authentication.
+• Cloudinary Image Upload.
+• Interactive Maps.
+• Property Listings.
+• Booking Platform.
 
-Mega Blog Platform
+Areas of Expertise:
 
-Technologies:
-React
-Redux Toolkit
-Tailwind CSS
-Appwrite
-
-Features:
-Authentication
-Rich Text Editor
-CRUD Posts
-Image Upload
-
-Services:
-
-Full-Stack Web Development
-Backend Development
-REST API Development
-AI Integration
-Machine Learning Solutions
-Computer Vision Applications
-RAG Applications
-LLM Applications
-AI Agents
-Cloud Deployment
-Technical Consulting
+• Full-Stack Web Development
+• Machine Learning
+• Deep Learning
+• Computer Vision
+• AI Systems
+• Large Language Models
+• Retrieval-Augmented Generation
+• AI Agents
+• Backend API Development
+• Database Design
+• Cloud Deployment
+• Software Engineering
 
 Achievements:
 
-15+ Software Projects
-3+ Years of Development Experience
-Worked with Modern AI Technologies
-Strong Foundation in Computer Science
-Open Source Contributor
-Competitive Programming Enthusiast
+• 1+ Years Professional Experience
+• CGPA 3.86/4.00
+• Dean's List Student
+• 15+ Software Projects
+• Built AI Healthcare Solutions
+• Developed Production-ready MERN Applications
+• Built Computer Vision Systems
+• Experience with AWS Deployment
+• Experience with FastAPI, Django and Node.js
 
-Currently Exploring:
+Career Interests:
 
-Agentic AI
-Large Language Models
-Retrieval-Augmented Generation (RAG)
-Multi-Agent Systems
-FastAPI
-System Design
-Cloud Architecture
-
-Open To:
-
-Software Engineer Roles
-Backend Engineer
-Full-Stack Developer
-Machine Learning Engineer
-AI Engineer
-Python Developer
-Research Collaborations
-Remote Opportunities
-Freelance Projects
+• Machine Learning Engineer
+• AI Engineer
+• Computer Vision Engineer
+• Backend Engineer
+• Full-Stack Software Engineer
+• Python Developer
+• Research Engineer
+• Remote Opportunities
+• Freelance Projects
 
 Contact:
 
 Email:
 hafiztanzeel.pk@gmail.com
 
+Phone:
++92 346 0529820
+
 Portfolio:
-https://www.hafiztanzeel.me
+https://hafiztanzeel.me
 
 GitHub:
 https://github.com/Hafiz-Tanzeel-Shamshad
 
 LinkedIn:
-https://www.linkedin.com/in/hafiztanzeel-dev/
-
+https://linkedin.com/in/hafiztanzeel-dev
 `;
