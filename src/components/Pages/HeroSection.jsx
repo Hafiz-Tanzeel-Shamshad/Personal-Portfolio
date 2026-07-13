@@ -38,7 +38,7 @@ const HeroSection = () => {
 
   const projectsTarget = 15;
   const yearsTarget = 3;
-  const clientsTarget = 8;
+  const clientsTarget = 3;
   const currentlyLearning = learningPosts.slice(0, 3);
 
   useEffect(() => {

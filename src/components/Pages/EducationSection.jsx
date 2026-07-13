@@ -9,8 +9,8 @@ export default function EducationSection() {
   ];
 
   const academicHighlights = [
-    { label: "Current CGPA", value: "3.7/4.0" },
-    { label: "Expected Graduation", value: "2025" },
+    { label: "CGPA", value: "3.85/4.00" },
+    { label: "Graduation", value: "Jan 22, 2026" },
     { label: "Academic Standing", value: "Dean's List" }
   ];
 
@@ -115,7 +115,9 @@ export default function EducationSection() {
         <div className="text-center mt-12">
           <div className="inline-flex items-center gap-2 bg-slate-800/50 backdrop-blur-sm px-6 py-3 rounded-full border border-slate-600/30">
             <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-            <span className="text-slate-300">Currently in final year • Actively seeking opportunities</span>
+            <span className="text-slate-300">
+              Open to Full Stack Development, AI/ML, Agentic AI & Automation opportunities
+            </span>
           </div>
         </div>
       </div>

@@ -67,9 +67,9 @@ const AboutSection = () => {
           {/* Right Side - Stats */}
           <AnimatedCard delay={600}>
             <div className="grid grid-cols-2 gap-6">
-              <CounterCard number={15} label="Technologies" delay={800} />
-              <CounterCard number={10} label="Subjects Mastered" delay={1000} />
-              <CounterCard number={3} label="Years Learning" delay={1200} />
+              <CounterCard number={20} label="Technologies" delay={800} />
+              <CounterCard number={20} label="Subjects Mastered" delay={1000} />
+              <CounterCard number={4} label="Years Learning" delay={1200} />
               <CounterCard number={5} label="Frameworks" delay={1400} />
             </div>
           </AnimatedCard>
