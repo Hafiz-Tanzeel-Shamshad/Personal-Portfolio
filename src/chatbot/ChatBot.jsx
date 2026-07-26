@@ -53,6 +53,7 @@ export default function ChatBot() {
     <>
       <button className="chat-toggle" onClick={() => setOpen(!open)}>
         {open ? "✕" : "💬"}
+        {!open && <span className="chat-tooltip">This is my portfolio assistant</span>}
       </button>
 
       {open && (

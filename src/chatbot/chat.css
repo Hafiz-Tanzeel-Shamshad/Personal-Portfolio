@@ -27,6 +27,40 @@
   transform: scale(0.95);
 }
 
+.chat-tooltip {
+  position: absolute;
+  right: calc(100% + 12px);
+  top: 50%;
+  transform: translateY(-50%);
+  background: #0f172a;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 8px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s, transform 0.25s;
+  transform: translateY(-50%) translateX(6px);
+}
+
+.chat-tooltip::after {
+  content: "";
+  position: absolute;
+  right: -6px;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+  width: 10px;
+  height: 10px;
+  background: #0f172a;
+}
+
+.chat-toggle:hover .chat-tooltip {
+  opacity: 1;
+  transform: translateY(-50%) translateX(0);
+}
+
 .chatbot {
   position: fixed;
   top: 96px;
