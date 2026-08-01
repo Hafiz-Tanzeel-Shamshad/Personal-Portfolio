@@ -41,11 +41,9 @@ export default function EducationSection() {
             {/* Education Details */}
             <div className="flex-1 text-center lg:text-left">
               <h3 className="text-3xl font-bold text-white mb-2">Bachelor of Science in Computer Science</h3>
-              <p className="text-blue-400 text-xl font-semibold mb-3">Riphah International University</p>
+              <p className="text-blue-400 text-xl font-semibold mb-3">Riphah International University, Islamabad</p>
               <p className="text-slate-300 leading-relaxed max-w-3xl">
-                Pursuing a comprehensive Computer Science degree with focus on modern software development practices, 
-                artificial intelligence, and emerging technologies. The program emphasizes both theoretical foundations 
-                and practical industry-relevant skills.
+                Earned a Bachelor of Science in Computer Science with a focus on software engineering, artificial intelligence, and emerging technologies. The curriculum combined strong theoretical foundations with practical, industry-oriented development experience.
               </p>
             </div>
 

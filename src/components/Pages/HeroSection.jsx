@@ -126,9 +126,7 @@ const HeroSection = () => {
             Computer Science Graduate from Riphah International University
           </p>
           <p className="mt-4 text-lg max-w-xl text-gray-300">
-            Building modern, scalable web applications with MongoDB, Express.js,
-            React, and Node.js. Passionate about creating seamless user
-            experiences and exploring the frontiers of artificial intelligence.
+            Building scalable applications with modern web technologies while exploring Deep Learning, Computer Vision, and Medical Image Analysis. Passionate about Agentic AI, RAG, and intelligent automation.
           </p>
 
           <div className="mt-5">

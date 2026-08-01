@@ -18,16 +18,10 @@ const AboutSection = () => {
           <AnimatedCard delay={400}>
             <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
               <p>
-                I'm a passionate Computer Science student at Riphah International University,
-                specializing in MERN stack development with a keen interest in Artificial Intelligence 
-                and Machine Learning. Currently pursuing my BSCS degree, I combine academic knowledge 
-                with practical development experience.
+                I'm a Computer Science graduate passionate about developing intelligent solutions that address real-world challenges. Starting with MERN stack development, my interests naturally evolved toward Artificial Intelligence, particularly Deep Learning, Computer Vision, Medical Image Analysis, Agentic AI, Retrieval-Augmented Generation (RAG) and automation.
               </p>
               <p>
-                My expertise spans the full development lifecycle, from designing intuitive user 
-                interfaces with React to building robust backend systems with Node.js and Express.js. 
-                I'm also exploring the exciting world of AI/ML, working with Python and various 
-                machine learning frameworks.
+                I enjoy building scalable web applications with React, Node.js, Express.js, and Flask while applying modern AI techniques to transform research into practical, impactful solutions.
               </p>
 
               {/* Three Cards */}
