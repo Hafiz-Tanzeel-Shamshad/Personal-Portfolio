@@ -123,7 +123,7 @@ const HeroSection = () => {
             />
           </p>
           <p className="mt-3 text-gray-300">
-            Computer Science Student at Riphah International University
+            Computer Science Graduate from Riphah International University
           </p>
           <p className="mt-4 text-lg max-w-xl text-gray-300">
             Building modern, scalable web applications with MongoDB, Express.js,
