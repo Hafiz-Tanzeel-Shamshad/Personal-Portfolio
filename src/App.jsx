@@ -24,7 +24,7 @@ function ScrollToTop() {
   return null;
 }
 
-const CANONICAL_BASE = "https://www.hafiztanzeel.me";
+const CANONICAL_BASE = "https://www.hafiztanzeel.tech";
 const SECTION_ROUTE_PATHS = new Set([
   "/projects",
   "/contact",

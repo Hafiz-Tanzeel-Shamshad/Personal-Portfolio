@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.hafiztanzeel.me/sitemap.xml
+Sitemap: https://www.hafiztanzeel.tech/sitemap.xml
