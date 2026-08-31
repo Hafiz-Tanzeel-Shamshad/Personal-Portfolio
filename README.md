@@ -4,7 +4,7 @@ This is my **personal portfolio website** built with modern web technologies.
 It showcases my skills, projects, and contact information in a clean and responsive design.
 
 ## 🚀 Live Demo
-🔗 [View Portfolio](https://hafiztanzeel.me)
+🔗 [View Portfolio](https://hafiztanzeel.tech)
 
 ---
 
