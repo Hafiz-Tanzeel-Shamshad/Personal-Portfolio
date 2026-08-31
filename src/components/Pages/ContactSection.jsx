@@ -60,7 +60,7 @@ const ContactSection = () => {
      
         <div className="space-y-6">
         <div className="mb-6 p-6 bg-gray-800 rounded-lg shadow-lg">
-          <h1 className="text-2xl font-bold mb-2 text-green-400">Let's Connect</h1>
+          <h2 className="text-2xl font-bold mb-2 text-green-400">Let's Connect</h2>
           <p className="text-gray-300 text-base leading-relaxed">
             I'm always interested in discussing new opportunities, collaborating on projects, or sharing knowledge about web development and technology.
           </p>

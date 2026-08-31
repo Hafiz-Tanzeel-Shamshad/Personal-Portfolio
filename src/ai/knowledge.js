@@ -342,7 +342,7 @@ Phone:
 +92 346 0529820
 
 Portfolio:
-https://hafiztanzeel.me
+https://www.hafiztanzeel.tech
 
 GitHub:
 https://github.com/Hafiz-Tanzeel-Shamshad
