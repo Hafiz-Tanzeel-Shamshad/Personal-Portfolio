@@ -47,7 +47,7 @@ const PAGE_META = {
   "/": {
     title: "Hafiz Tanzeel | Portfolio",
     description:
-      "Portfolio of Hafiz Tanzeel Shamshad, MERN Stack Developer, Computer Vision Engineer, and AI/ML Engineer specializing in LLMs, Generative AI, and Agentic AI systems.",
+      "Machine Learning Engineer and Computer Vision Researcher specializing in Deep Learning and Medical Image Analysis using PyTorch, OpenCV, and YOLO.",
   },
   "/certifications": {
     title: "Certifications | Hafiz Tanzeel",
