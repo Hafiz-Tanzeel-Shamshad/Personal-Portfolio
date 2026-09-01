@@ -45,7 +45,7 @@ const SECTION_ROUTE_PATHS = new Set([
 
 const PAGE_META = {
   "/": {
-    title: "Hafiz Tanzeel | MERN Stack & AI/ML Developer",
+    title: "Hafiz Tanzeel | AI/ML & Computer Vision Engineer",
     description:
       "Portfolio of Hafiz Tanzeel Shamshad, MERN Stack Developer, Computer Vision Engineer, and AI/ML Engineer specializing in LLMs, Generative AI, and Agentic AI systems.",
   },
