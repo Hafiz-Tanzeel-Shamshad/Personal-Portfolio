@@ -148,7 +148,7 @@ export default function Footer() {
                 <span className="text-purple-400 font-medium">Backend:</span> Flask, FastAPI, Node.js
               </li>
               <li className="transition-colors duration-300 hover:text-white">
-                <span className="text-blue-400 font-medium">Frontend:</span> Streamlit, React
+                <span className="text-blue-400 font-medium">Frontend:</span> Streamlit, React.js
               </li>
             </ul>
           </div>
