@@ -5,11 +5,10 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   const quickLinks = [
-    { label: "About", path: "/about" },
-    { label: "Skills", path: "/skills" },
     { label: "Projects", path: "/projects" },
-    { label: "Blog", path: "/tech-notes" },
-    { label: "Contact", path: "/contact" },
+    { label: "tech-notes", path: "/tech-notes" },
+    { label: "Certifications", path: "/certifications" },
+    { label: "Experience", path: "/Experience" },
   ];
 
   const currentYear = new Date().getFullYear();
@@ -39,9 +38,7 @@ export default function Footer() {
             </div>
 
             <p className="text-slate-400 mb-6 max-w-md text-sm leading-relaxed">
-              MERN Stack Developer and AI/ML enthusiast passionate about
-              creating modern, scalable web applications and exploring the
-              frontiers of technology.
+              Computer Vision Engineer and Full-Stack Developer, dedicated to building intelligent solutions and modern web applications.
             </p>
 
             {/* Social Links */}
@@ -120,16 +117,16 @@ export default function Footer() {
             <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-300 mb-4">Services</h3>
             <ul className="space-y-3 text-sm text-slate-400">
               <li className="flex items-center gap-2 transition-colors duration-300 hover:text-white">
-                <MdWeb className="text-cyan-400" /> Web Development
+                <MdWeb className="text-cyan-400" />AI & ML Solutions
               </li>
               <li className="flex items-center gap-2 transition-colors duration-300 hover:text-white">
-                <MdArticle className="text-green-400" /> Technical Writing
+                <MdArticle className="text-green-400" /> Code Review & Optimization
               </li>
               <li className="flex items-center gap-2 transition-colors duration-300 hover:text-white">
-                <MdRateReview className="text-yellow-400" /> Code Review
+                <MdRateReview className="text-yellow-400" /> Technical Research & Writing
               </li>
               <li className="flex items-center gap-2 transition-colors duration-300 hover:text-white">
-                <MdSchool className="text-purple-400" /> Mentoring
+                <MdSchool className="text-purple-400" /> Full-Stack Web Development
               </li>
             </ul>
           </div>
@@ -139,19 +136,19 @@ export default function Footer() {
             <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-300 mb-4">Expertise</h3>
             <ul className="space-y-2 text-sm text-slate-400">
               <li className="transition-colors duration-300 hover:text-white">
-                <span className="text-cyan-400 font-medium">Frontend:</span> React, JavaScript
+                <span className="text-cyan-400 font-medium">Core Focus: </span> Computer Vision, Agentic AI
               </li>
               <li className="transition-colors duration-300 hover:text-white">
-                <span className="text-green-400 font-medium">Backend:</span> Node.js, Express
+                <span className="text-green-400 font-medium">Languages:</span> Python, JavaScript
               </li>
               <li className="transition-colors duration-300 hover:text-white">
-                <span className="text-yellow-400 font-medium">Database:</span> MongoDB, MySQL
+                <span className="text-yellow-400 font-medium">Database:</span>  Vector Databases, PostgreSQL, MongoDB
               </li>
               <li className="transition-colors duration-300 hover:text-white">
-                <span className="text-purple-400 font-medium">Languages:</span> C++, Java, Python
+                <span className="text-purple-400 font-medium">Backend:</span> Flask, FastAPI, Node.js
               </li>
               <li className="transition-colors duration-300 hover:text-white">
-                <span className="text-blue-400 font-medium">Focus:</span> AI/ML, DSA
+                <span className="text-blue-400 font-medium">Frontend:</span> Streamlit, React
               </li>
             </ul>
           </div>

@@ -122,14 +122,14 @@ const HeroSection = () => {
               delaySpeed={1500}
             />
           </p>
-          <p className="mt-3 text-gray-300">
+          {/* <p className="mt-3 text-gray-300">
             Computer Science Graduate from Riphah International University
-          </p>
+          </p> */}
           <p className="mt-4 text-lg max-w-xl text-gray-300">
-            Building scalable applications with modern web technologies while exploring Deep Learning, Computer Vision, and Medical Image Analysis. Passionate about Agentic AI, RAG, and intelligent automation.
+            I specialize in Deep Learning, Computer Vision, and Medical Image Analysis, and have experience with Agentic AI, RAG, and intelligent automation. I pair this expertise with the MERN stack to build scalable web applications.
           </p>
 
-          <div className="mt-5">
+          {/* <div className="mt-5">
             <p className="text-sm text-purple-300 font-semibold mb-2">
               Currently Learning / Exploring
             </p>
@@ -143,7 +143,7 @@ const HeroSection = () => {
                 </span>
               ))}
             </div>
-          </div>
+          </div> */}
 
           {/* Buttons */}
           <div className="mt-8 flex gap-4 flex-wrap">

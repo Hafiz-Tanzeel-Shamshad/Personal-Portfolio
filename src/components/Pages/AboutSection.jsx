@@ -18,10 +18,10 @@ const AboutSection = () => {
           <AnimatedCard delay={400}>
             <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
               <p>
-                I'm a Computer Science graduate passionate about developing intelligent solutions that address real-world challenges. Starting with MERN stack development, my interests naturally evolved toward Artificial Intelligence, particularly Deep Learning, Computer Vision, Medical Image Analysis, Agentic AI, Retrieval-Augmented Generation (RAG) and automation.
+               I'm a Computer Vision Engineer who builds intelligent systems to solve practical problems. My engineering journey started with MERN stack development, but my focus quickly shifted toward Artificial Intelligence specifically Deep Learning, Computer Vision, and Medical Image Analysis.
               </p>
               <p>
-                I enjoy building scalable web applications with React, Node.js, Express.js, and Flask while applying modern AI techniques to transform research into practical, impactful solutions.
+                Today, I combine both skill sets. I build scalable web applications using React, Node.js, Express, and Flask, while integrating modern technologies like Agentic AI and RAG to turn complex research into practical, everyday solutions.
               </p>
 
               {/* Three Cards */}

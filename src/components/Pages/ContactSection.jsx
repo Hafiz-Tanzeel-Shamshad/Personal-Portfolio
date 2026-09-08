@@ -62,7 +62,7 @@ const ContactSection = () => {
         <div className="mb-6 p-6 bg-gray-800 rounded-lg shadow-lg">
           <h2 className="text-2xl font-bold mb-2 text-green-400">Let's Connect</h2>
           <p className="text-gray-300 text-base leading-relaxed">
-            I'm always interested in discussing new opportunities, collaborating on projects, or sharing knowledge about web development and technology.
+            Whether you want to build an AI system, collaborate on a project, or talk tech, I'm always open to new opportunities. Let's connect.
           </p>
      </div>
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
@@ -84,12 +84,10 @@ const ContactSection = () => {
             <h3 className="text-xl font-semibold mb-4">Areas of Interest</h3>
             <div className="flex flex-wrap gap-2">
               {[
-                "Web Development",
-                "AI & Machine Learning",
-                "Open Source",
-                "Mentorship",
-                "Tech Communities",
-                "Startup Projects",
+                "Reinforcement Learning",
+                "Data Science",
+                "AI Research",
+                "Teaching",
               ].map((tag, i) => (
                 <span
                   key={i}

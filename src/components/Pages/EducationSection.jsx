@@ -1,4 +1,5 @@
 import React from 'react';
+import uniLogo from '../../assets/images (1).jfif';
 
 export default function EducationSection() {
   const skillsData = [
@@ -33,9 +34,9 @@ export default function EducationSection() {
         {/* Main Education Card */}
         <div className="bg-gradient-to-br from-slate-800/80 to-slate-700/80 backdrop-blur-sm rounded-2xl p-8 mb-12 border border-slate-600/30 shadow-2xl">
           <div className="flex flex-col lg:flex-row items-center gap-8">
-            {/* University Logo Placeholder */}
-            <div className="w-24 h-24 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center shadow-lg">
-              <div className="text-2xl font-bold text-white">RIU</div>
+            {/* University Logo */}
+            <div className="w-28 h-28 rounded-2xl flex items-center justify-center shadow-lg overflow-hidden bg-white p-2">
+              <img src={uniLogo} alt="University Logo" className="max-w-full max-h-full object-contain" />
             </div>
             
             {/* Education Details */}
@@ -43,7 +44,7 @@ export default function EducationSection() {
               <h3 className="text-3xl font-bold text-white mb-2">Bachelor of Science in Computer Science</h3>
               <p className="text-blue-400 text-xl font-semibold mb-3">Riphah International University, Islamabad</p>
               <p className="text-slate-300 leading-relaxed max-w-3xl">
-                Earned a Bachelor of Science in Computer Science with a focus on software engineering, artificial intelligence, and emerging technologies. The curriculum combined strong theoretical foundations with practical, industry-oriented development experience.
+                Graduated with a Bachelor of Science in Computer Science, focusing on Artificial Intelligence and software engineering. The curriculum combined applied engineering with strong theoretical foundations.
               </p>
             </div>
 
